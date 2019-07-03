@@ -13,7 +13,7 @@ namespace Lesson10_Inheritance
             "Недопустимая дата поступления",
             "Недопустимый возраст студента",
             "Дата рождения больше текущей даты",
-            "Сотрудник младше " + Constants.MinEmployeeAge + " лет",
+            "Сотрудник моложе " + Constants.MinEmployeeAge + " лет",
         };
 
         public static string GetCurrentErrorInfo(int errorCode)
